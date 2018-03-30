@@ -18,7 +18,7 @@ LZ4 is lossless compression algorithm
 %package devel
 Summary: lz4 development headers and static library
 Group: Development/Libraries
-#Requires: %{name} = %{version}
+Requires: %{name} = %{version}
 
 %description devel
 LZ4 is lossless compression algorithm. This
@@ -27,7 +27,7 @@ package provides libraries and headers for development
 %package tools
 Summary: lz4 tools
 Group: Development/Libraries
-#Requires: %{name} = %{version}
+Requires: %{name} = %{version}
 
 %description tools
 LZ4 is lossless compression algorithm. This
