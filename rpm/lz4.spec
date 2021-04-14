@@ -46,7 +46,7 @@ CXXFLAGS="$CXXFLAGS -fPIC"
 
 %install
 %{__rm} -rf %{buildroot}
-%{__make} install prefix=/usr DESTDIR=%{buildroot}
+%{__make} install prefix=%{_prefix} LIBDIR=%{_libdir} DESTDIR=%{buildroot}
 
 %clean
 %{__rm} -rf %{buildroot}
