@@ -1,6 +1,6 @@
 Summary: Extremely Fast Compression algorithm
 Name: lz4
-Version: 1.8.1.2
+Version: 1.8.1.3
 Release: 1%{?dist}
 License: BSD-type license
 Group: Libraries/Databases
