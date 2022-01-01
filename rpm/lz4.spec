@@ -15,6 +15,10 @@ BuildRequires: gcc-c++
 %description
 LZ4 is lossless compression algorithm
 
+PackageName: LZ4
+Categories:
+  - Library
+
 %package devel
 Summary: lz4 development headers and static library
 Group: Development/Libraries
@@ -24,6 +28,10 @@ Requires: %{name} = %{version}
 LZ4 is lossless compression algorithm. This
 package provides libraries and headers for development
 
+PackageName: LZ4 Development
+Categories:
+  - Library
+
 %package tools
 Summary: lz4 tools
 Group: Development/Libraries
@@ -32,6 +40,10 @@ Requires: %{name} = %{version}
 %description tools
 LZ4 is lossless compression algorithm. This
 package provides tools
+
+PackageName: LZ4 Tools
+Categories:
+  - Utility
 
 %prep
 %setup -q -n %{name}-%{version}/lz4
