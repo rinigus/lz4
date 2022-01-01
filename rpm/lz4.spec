@@ -42,6 +42,7 @@ LZ4 is lossless compression algorithm. This
 package provides tools
 
 PackageName: LZ4 Tools
+Type: console-application
 Categories:
   - Utility
 
